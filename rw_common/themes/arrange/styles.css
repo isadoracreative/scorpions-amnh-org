@@ -9,7 +9,7 @@ http://www.henkvrieselaar.nl/carousel-styles/ Email: henkvrieselaar@home.nl
 /* @group General Styles */
 
 body {
-	font: 12px Arial, Helvetica, Geneva, sans-serif;
+	font: 1rem Arial, Helvetica, Geneva, sans-serif;
 	color: black;
 	margin-right: auto;
 	margin-left: auto;
@@ -55,7 +55,7 @@ h4,
 h5,
 h6 {
 	color: #ffffff;
-	font-size: 12px;
+	font-size: 1rem;
 	font-weight: normal;
 	font-style: normal;
 	border-bottom: 1px solid red;
@@ -150,7 +150,7 @@ img {
 
 #sidebarContainer {
 	margin-top: 5px;
-	font-size: 11px;
+	font-size: 1rem;
 	margin-left: 0px;
 	float: left;
 	padding-bottom: 0px;
@@ -173,7 +173,7 @@ img {
 
 #footer {
 	padding: 3px 0 6px;
-	font-size: 11px;
+	font-size: .75rem;
 }
 
 #footer p {
@@ -195,7 +195,7 @@ img {
 
 #breadcrumbcontainer {
 	margin: 0;
-	font-size: 11px;
+	font-size: 1rem;
 	border-top: 1px solid red;
 	padding-top: 5px;
 }
@@ -292,7 +292,7 @@ img {
 
 #navcontainer2 {
 	display: inline;
-	font-size: 11px;
+	font-size: 1rem;
 	text-align: left;
 	padding-bottom: 0px;
 	margin-left: 0px;
@@ -372,28 +372,28 @@ img {
 blockquote {
 	color: #4c4c4c;
 	font-style: italic;
-	font-size: 0.85em;
+	font-size: 1rem;
 	margin: 0;
 	padding: 5px;
 }
 
 h1 {
-	font-size: 1.6em;
+	font-size: 3rem;
 	margin: 0 0 3px;
 }
 
 h2 {
-	font-size: 1.4em;
+	font-size: 2.25rem;
 	margin: 0 0 3px;
 }
 
 h3 {
-	font-size: 1.2em;
+	font-size: 1.5rem;
 	margin: 0 0 3px;
 }
 
 h4 {
-	font-size: 1em;
+	font-size: 1.25rem;
 	margin: 0 0 3px;
 }
 
@@ -451,7 +451,7 @@ ol.lower-roman {
 	
 /* Table Styles */
 table {
-	font-size: 1em;
+	font-size: 1rem;
 }
 /* @end */
 
@@ -465,7 +465,8 @@ table {
 .blog-entry-summary {
 	margin-bottom: 10px;
 }
-.blog-archive-headings-wrapper {
+
+.blog-archive-headings-wrapper {
 	margin-bottom: 20px;
 	padding-bottom: 20px;
 }
@@ -474,18 +475,22 @@ table {
 }
 
 .blog-archive-entries-wrapper .blog-entry {
-}.blog-archive-month {
+}
+
+.blog-archive-month {
 	letter-spacing: 2px;
 	margin-bottom: 5px;
 	font-style: normal;
-	font-size: 2em;
+	font-size: 1rem;
 }
 
 .blog-archive-link {
-	font-size: 0.9em;
+	font-size: 1rem;
 	margin-bottom: 15px;
 	padding-bottom: 10px;
-}.blog-archive-link a:link, .blog-archive-link a:visited {
+}
+
+.blog-archive-link a:link, .blog-archive-link a:visited {
 }
 	
 /* @end */
@@ -503,83 +508,83 @@ ul.blog-tag-cloud li {
 }
 
 .blog-tag-size-1 {	
-	font-size: 0.8em;
+	font-size: 1rem;
 }
 
 .blog-tag-size-2 {	
-	font-size: 0.85em;
+	font-size: 1rem;
 }
 
 .blog-tag-size-3 {	
-	font-size: 0.9em;
+	font-size: 1rem;
 }
 
 .blog-tag-size-4 {	
-	font-size: 0.95em;
+	font-size: 1rem;
 }
 
 .blog-tag-size-5 {	
-	font-size: 1em;
+	font-size: 1rem;
 }
 
 .blog-tag-size-6 {	
-	font-size: 1.05em;
+	font-size: 1rem;
 }
 
 .blog-tag-size-7 {	
-	font-size: 1.1em;
+	font-size: 1rem;
 }
 
 .blog-tag-size-8 {	
-	font-size: 1.15em;
+	font-size: 1rem;
 }
 
 .blog-tag-size-9 {	
-	font-size: 1.2em;
+	font-size: 1rem;
 }
 
 .blog-tag-size-10 {	
-	font-size: 1.25em;
+	font-size: 1rem;
 }
 
 .blog-tag-size-11 {	
-	font-size: 1.3em;
+	font-size: 1rem;
 }
 
 .blog-tag-size-12 {	
-	font-size: 1.35em;
+	font-size: 1rem;
 }
 
 .blog-tag-size-13 {
-	font-size: 1.4em;
+	font-size: 1rem;
 }
 
 .blog-tag-size-14 {	
-	font-size: 1.45em;
+	font-size: 1rem;
 }
 
 .blog-tag-size-15 {
-	font-size: 1.5em;
+	font-size: 1rem;
 }
 
 .blog-tag-size-16 {	
-	font-size: 1.55em;
+	font-size: 1rem;
 }
 
 .blog-tag-size-17 {	
-	font-size: 1.6em;
+	font-size: 1rem;
 }
 
 .blog-tag-size-18 {	
-	font-size: 1.65em;
+	font-size: 1rem;
 }
 
 .blog-tag-size-19 {
-	font-size: 1.7em;
+	font-size: 1rem;
 }
 
 .blog-tag-size-20 {	
-	font-size: 1.75em;
+	font-size: 1rem;
 }
 
 /* @end */
@@ -590,7 +595,7 @@ ul.blog-tag-cloud li {
 
 .blog-entry-title {
 	margin-bottom: 4px;
-	font-size: 15px;
+	font-size: 1rem;
 	font-weight: normal;
 	font-style: normal;
 	margin-top: 10px;
@@ -604,7 +609,7 @@ ul.blog-tag-cloud li {
 }
 
 .blog-entry-date {
-	font-size: 11px;
+	font-size: 1rem;
 	margin-bottom: 10px;
 	padding-bottom: 5px;
 	text-align: left;
@@ -704,16 +709,16 @@ a.blog-trackback-link {
 }
 
 .filesharing-item-title a:link {
-	font-size: 14px;
+	font-size: 1rem;
 	width: inherit;
 	padding: 3px 0;
 }
 
-.filesharing-item-title a:hover {		font-size: 14px;
+.filesharing-item-title a:hover {		font-size: 1rem;
 	padding: 3px 0;
 }
 
-.filesharing-item-title a:visited {		font-size: 14px;
+.filesharing-item-title a:visited {		font-size: 1rem;
 	padding: 3px 0;
 }
 
@@ -730,7 +735,7 @@ a.blog-trackback-link {
 /* @group Index Page (Thumbnail view) */
 
 .album-title {
-	font-size: 18px;
+	font-size: 1.125rem;
 	margin: 1px 0px 5px;
 	font-weight: normal;
 	letter-spacing: 1px;
@@ -783,7 +788,7 @@ a.blog-trackback-link {
 	width: 100%;
 	height: 38px;
 	display: block;
-	font-size: 11px;
+	font-size: .75rem;
 }
 	
 /* @end */
@@ -833,12 +838,12 @@ a.blog-trackback-link {
 	padding-left: 10px;
 	letter-spacing: 3px;
 	padding-top: 7px;
-	font-size: 24px;
+	font-size: 1.5rem;
 	margin: 0;
 }
 
 .photo-caption {
-	font-size: 18px;
+	font-size: 1.125rem;
 	padding-left: 10px;
 	font-weight: normal;
 	margin: 0 0 15px;
@@ -848,7 +853,7 @@ a.blog-trackback-link {
 /* @group EXIF data */
 /* Data wrapper */
 .exif-data {
-	font-size: 11px;
+	font-size: .75rem;
 	line-height: 1px;
 }
 
@@ -1041,15 +1046,19 @@ p.exif-user-comment {
 /* @group Index Page (Movie Thumbnail view) */
 
 .movie-page-title {
-	font-size: 1.5em;
+	font-size: 1.5rem;
 	color: #000;
 	margin: 0px;
 	font-weight: bold;
 	margin-bottom: 5px;
-}.movie-page-description {
+}
+
+.movie-page-description {
 	margin-bottom: 15px;
 	color: #ffffff;
-}.movie-thumbnail-frame {
+}
+
+.movie-thumbnail-frame {
 	width: 132px;
 	float: left;
 	text-align: center;

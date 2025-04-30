@@ -11,6 +11,8 @@
 		var imagenumber = 51;
 		var randomnumber = Math.random();
 		var rand1 = Math.round((imagenumber - 1) * randomnumber) + 1;
+		var rand2 = Math.round((imagenumber - 1) * randomnumber) + 2;
+		var rand3 = Math.round((imagenumber - 1) * randomnumber) + 3;
 
 		images = new Array;
 		images[1] = "images/00050.jpg";
@@ -61,10 +63,11 @@
 		images[46] = "images/Rhagodid1.jpg";
 		images[47] = "images/Rhagodid2.jpg";
 		images[48] = "images/Solipugid1.jpg";
-		images[49] = "images/Solipugid2.jpg";
-		images[50] = "images/Opisthacanthus.jpg";
-		images[51] = "images/pectines.jpg";
+		images[49] = "images/Opisthacanthus.jpg";
+		images[50] = "images/pectines.jpg";
 		var myimage = images[rand1];
+		var myimage2 = images[rand2];
+		var myimage3 = images[rand3];
 	</script>
 	<script type="text/javascript">
 		var tmp_image_path = "rw_common/themes/arrange/greybox/next.gif";
@@ -150,24 +153,49 @@
 			<h1>Arachnology Lab at AMNH</h1>
 			<h2>Scorpion Systematics Research Group</h2>
 			<h3>Division of Invertebrate Zoology at The American Museum of Natural History</h3>
-			<div class="image-container">
-				<script>
-					document.write('<img src="' + myimage + '">');
-				</script>
-			</div>
-			<h6><a href="https://www.amnh.org/research/staff-directory/norman-i.-platnick/in-memoriam">In Memoriam Norman I. Platnick (1951-2020)</a></h6>
-			<p><a href="https://res.cloudinary.com/gato/image/upload/v1590183437/Norman_I._Platnick_1951-2020_IZ_website_V2_boqoxj.pdf">In Memoriam PDF</a></p>
 			<h6>Collections</h6>
-			<p>For information, please check our <a href="collections/collections.html">Collections Page</a></p>
+			<ul class="bulleted-list">
+				<li>Acari (mites and ticks)</li>
+				<li>Amblypygi (whip spiders)</li>
+				<li>Araneae (spiders)</li>
+				<li>Chilopoda (centipedes)</li>
+				<li>Diplopoda (millipedes)</li>
+				<li>Opiliones (harvestmen)</li>
+				<li>Palpigradi (palpigrades)</li>
+				<li>Pauropoda (pauropods)</li>
+				<li>Pseudoscorpiones (false scorpions)</li>
+				<li>Ricinulei (hooded tick-spiders or ricinuleids)</li>
+				<li>Schizomida (schizomids)</li>
+				<li>Scorpiones (scorpions)</li>
+				<li>Solifugae (solifuges, solpugids or camel-spiders)</li>
+				<li>Symphyla (garden centipedes or symphylans)</li>
+				<li>Uropygi (vinegaroons or whip scorpions)</li>
+			</ul>
+			<p>See our <a href="collections/collections.html">Collections Page</a> for more information.</p>
 			<h6>Grants</h6>
 			<ul class="bulleted-list">
-				<li><a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2003382&amp;HistoricalAwards=false">NSF: Systematics and Evolution of Pedipalpi (Whip Spiders and Whip Scorpions): Phylogenomics and Morphology of Understudied Arachnids</a></li>
+				<li><a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2003382&amp;HistoricalAwards=false" target="_blank">NSF: Systematics and Evolution of Pedipalpi (Whip Spiders and Whip Scorpions): Phylogenomics and Morphology of Understudied Arachnids</a></li>
 				<li>Stavros Niarchos Foundation: Are Caves Refugia for Relictual Species? Origins and Evolution of Troglomorphic Arthropods in Southeast Asian Caves</li>
 				<li>National Geographic Society: Exploring Unknown Arachnid Diversity in the Caves of an Ancient Tepui</li>
-				<li><a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1655050&amp;HistoricalAwards=false">NSF: Living Fossils: Integrating Phylogenomics and Comparative Morphology to Assemble the Scorpion Tree of Life</a></li>	
+				<li><a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1655050&amp;HistoricalAwards=false" target="_blank">NSF: Living Fossils: Integrating Phylogenomics and Comparative Morphology to Assemble the Scorpion Tree of Life</a></li>	
 			</ul>
+			<h6><a href="https://www.amnh.org/research/staff-directory/norman-i.-platnick/in-memoriam" target="_blank">In Memoriam Norman I. Platnick (1951-2020)</a></h6>
+			<p><a href="https://res.cloudinary.com/gato/image/upload/v1590183437/Norman_I._Platnick_1951-2020_IZ_website_V2_boqoxj.pdf" target="_blank">View In Memoriam PDF</a></p>
+			<h6>Image Gallery</h6>
+			<p>A selection of images from our work in the field and in the lab.</p>
+			<div class="image-gallery">
+				<script>
+					// Shuffle the images array (excluding the first empty index)
+					const shuffledImages = images.slice(1).sort(() => Math.random() - 0.5);
+
+					// Write each image to the document in the randomized order
+					shuffledImages.forEach((image, index) => {
+						document.write('<img src="' + image + '" alt="Image ' + (index + 1) + '" class="image-container">');
+					});
+				</script>
+			</div>
 			<footer>
-				<p>&copy; Lorenzo Prendini 2025. All rights reserved. </p>
+				<p>Copyright &copy; Lorenzo Prendini 2025. All Rights Reserved. </p>
 			</footer>
 		</div>
 	</main>

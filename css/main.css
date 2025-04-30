@@ -69,13 +69,16 @@ main {
     display: flex;
 }
 .sidenav {
-    height: 100vh;
+    min-height: 100vh;
+    min-width: 280px;
     padding: 24px;
-    background-color: aliceblue;
+    background-color: powderblue;
     font-weight: bold;
-    ul li ul li{
+    ul li {
+        ul li {
         padding-left: 16px;
         font-weight: normal;
+        }
     }
     a {
         color: black;
@@ -95,15 +98,26 @@ main {
     padding: 24px 32px;
     background-color: white;
 }
-.image-container {
-    margin: 24px 0;
+.image-gallery {
+    display: flex-wrap;
+    margin-top: 12px;
 }
-.bulleted-list li {
-    list-style-type: disc;
-    margin-left: 16px;
-    padding-left: 4px;
+.image-container {
+    height: 200px;
+    margin: 0 24px 24px 0;
+}
+.bulleted-list {
+    padding-bottom: 4px;
+    li {
+        list-style-type: disc;
+        margin-left: 16px;
+        padding-left: 4px;
+    }
 }
 footer {
     padding: 48px 0;
     color: gray;
+    p {
+        font-size: 0.875rem;
+    }
 }

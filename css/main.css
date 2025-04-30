@@ -6,17 +6,17 @@ body {
     padding: 0;
 }
 a {
-    color: blue;
+    color: royalblue;
     text-decoration: none;
 }
 a:hover {
     text-decoration: underline;
 }
 a:visited {
-    color: blue;
+    color: royalblue;
 }
 a:active {
-    color: blue;
+    color: royalblue;
 }
 h1, h2 {
     font-family: Georgia, Times, serif;
@@ -67,34 +67,51 @@ p {
 }
 main {
     display: flex;
+    justify-content: center;
 }
 .sidenav {
-    min-height: 100vh;
-    min-width: 280px;
-    padding: 24px;
-    background-color: powderblue;
+    padding: 24px 32px;
     font-weight: bold;
+    overflow-y: auto; /* Enable vertical scrolling */
     ul li {
+        margin-top: 4px;
+        a {
+            font-size: 1.125rem;
+            color: black;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        a:visited {
+            color: black;
+        }
+        a:active {
+            color: black;
+        }
         ul li {
+        margin-top: 0;
         padding-left: 16px;
         font-weight: normal;
+        a {
+            font-size: 1rem;
+            color: black;
+            text-decoration: none;
         }
-    }
-    a {
-        color: black;
-        text-decoration: none;
-    }
-    a:hover {
-        text-decoration: underline;
-    }
-    a:visited {
-        color: black;
-    }
-    a:active {
-        color: black;
+        a:hover {
+            text-decoration: underline;
+        }
+        a:visited {
+            color: black;
+        }
+        a:active {
+            color: black;
+        }
+        }
     }
 }
 .main-content {
+    max-width: 1120px;
     padding: 24px 32px;
     background-color: white;
 }
@@ -115,9 +132,12 @@ main {
     }
 }
 footer {
-    padding: 48px 0;
-    color: gray;
+    background-color: dimgray;
+    margin: 24px 0 0 0;
+    padding: 24px 0;
+    color: white;
     p {
         font-size: 0.875rem;
+        text-align: center;
     }
 }

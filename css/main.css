@@ -71,11 +71,20 @@ header {
     left: 0;
     background-color: black;
     padding: 24px 48px;
-    .logo-container {
-        height: 56px;
-        background: no-repeat url('../images/logo-text-horizontal-white.svg');
-        }
-    }
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo-container.logo-lab {
+    height: 56px;
+    min-width: 420px;
+    background: no-repeat url('../images/logo-text-horizontal-white.svg');
+}
+.logo-container.logo-amnh {
+    height: 32px;
+    min-width: 420px;
+    background: right no-repeat url('../images/amnh-logo-white.svg');
+}
 main {
     display: flex;
     justify-content: center;

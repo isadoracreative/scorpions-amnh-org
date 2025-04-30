@@ -6,17 +6,17 @@ body {
     padding: 0;
 }
 a {
-    color: royalblue;
+    color: #078071;
     text-decoration: none;
 }
 a:hover {
     text-decoration: underline;
 }
 a:visited {
-    color: royalblue;
+    color: #078071;
 }
 a:active {
-    color: royalblue;
+    color: #078071;
 }
 h1, h2 {
     font-family: Georgia, Times, serif;
@@ -132,7 +132,7 @@ main {
     }
 }
 footer {
-    background-color: #333;
+    background-color: #004BB4;
     margin: 24px 0 0 0;
     padding: 24px 0;
     color: white;

@@ -1,4 +1,7 @@
 body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
     font-family: Helvetica, Arial, sans-serif;
     font-size: 1rem;
     background-color: white;
@@ -66,14 +69,16 @@ p {
     font-size: 1rem;
 }
 header {
-    position: sticky;
-    top: 0;
-    left: 0;
     background-color: black;
     padding: 24px 48px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed; /* Keep the header fixed at the top */
+    top: 0;
+    left: 0;
+    width: 100%; /* Full width */
+    z-index: 1000; /* Ensure it stays above other content */
 }
 .logo-container.logo-lab {
     height: 56px;
@@ -87,28 +92,34 @@ header {
 }
 main {
     display: flex;
+    margin-top: 104px;
     justify-content: center;
 }
 .sidenav {
     padding: 24px 32px;
-    font-weight: bold;
     width: 280px;
-    overflow-y: auto; /* Enable vertical scrolling */
+    height: calc(100vh - 104px);
+    overflow-y: auto;
+    scrollbar-width: none; /* For Firefox */
+    &::-webkit-scrollbar {
+        display: none; /* For Chrome, Safari, and Edge */
+    }
+    font-weight: bold;
     ul li {
         margin-top: 4px;
         a {
             font-size: 1.125rem;
-            color: black;
+            color: #078071;
             text-decoration: none;
         }
         a:hover {
             text-decoration: underline;
         }
         a:visited {
-            color: black;
+            color: #078071;
         }
         a:active {
-            color: black;
+            color: #078071;
         }
         ul li {
         margin-top: 0;
@@ -134,6 +145,12 @@ main {
 .main-content {
     max-width: 1120px;
     padding: 24px 32px;
+    height: calc(100vh - 104px);
+    overflow-y: auto;
+    scrollbar-width: none; /* For Firefox */
+    &::-webkit-scrollbar {
+        display: none; /* For Chrome, Safari, and Edge */
+    }
     background-color: white;
 }
 .image-gallery {
@@ -154,7 +171,7 @@ main {
 }
 footer {
     background-color: #004BB4;
-    margin: 24px 0 0 0;
+    margin-top: auto;
     padding: 48px 0;
     color: white;
     p {

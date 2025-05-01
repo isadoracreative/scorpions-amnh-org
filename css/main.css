@@ -90,13 +90,16 @@ header {
     min-width: 420px;
     background: right no-repeat url('../images/amnh-logo-white.svg');
 }
-main {
+.wrapper {
     display: flex;
-    margin-top: 104px;
     justify-content: center;
+}
+.container {
+    max-width: 1120px;
 }
 .sidenav {
     padding: 24px 32px;
+    margin-top: 104px;
     width: 280px;
     height: calc(100vh - 104px);
     overflow-y: auto;
@@ -142,16 +145,12 @@ main {
         }
     }
 }
-.main-content {
-    max-width: 1120px;
-    padding: 24px 32px;
-    height: calc(100vh - 104px);
-    overflow-y: auto;
-    scrollbar-width: none; /* For Firefox */
-    &::-webkit-scrollbar {
-        display: none; /* For Chrome, Safari, and Edge */
-    }
+main {
+    margin-top: 104px;
+    padding: 24px 0;
     background-color: white;
+    display: flex;
+    justify-content: center;
 }
 .image-gallery {
     display: flex-wrap;

@@ -98,10 +98,11 @@ header {
     max-width: 1120px;
 }
 .sidenav {
-    padding: 24px 32px;
-    margin-top: 104px;
+    position: sticky;
+    top: 0;
+    padding: 128px 32px 24px;
     width: 280px;
-    height: calc(100vh - 104px);
+    height: 100vh;
     overflow-y: auto;
     scrollbar-width: none; /* For Firefox */
     &::-webkit-scrollbar {

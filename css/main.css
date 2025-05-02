@@ -43,11 +43,12 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
     font-size: 3rem;
     line-height: 1.2;
-    margin-bottom: 12px;
+    margin-bottom: .75rem;
 }
 h2 {
     font-size: 2.25rem;
     font-weight: normal;
+    margin-top: .125rem;
 }
 h3 {
     font-size: 1.5rem;
@@ -69,7 +70,24 @@ h6 {
 p {
     font-size: 1rem;
     line-height: 1.5;
-    margin-bottom: 8px;
+    margin-bottom: .5rem;
+}
+.lead {
+    font-size: 1.125rem;
+    line-height: 1.5;
+    margin-bottom: 1.25rem;
+}
+figcaption {
+    font-size: 0.875rem;
+    line-height: 1.5;
+    margin-bottom: .5rem;
+}
+.image-people-group {
+    max-width: 800px;
+    margin-bottom: 32px;
+    img {
+        min-width: 800px;
+    }
 }
 .no-space-after {
     margin-bottom: 0;

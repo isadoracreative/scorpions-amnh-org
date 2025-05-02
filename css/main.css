@@ -4,6 +4,7 @@ body {
     min-height: 100vh;
     font-family: Helvetica, Arial, sans-serif;
     font-size: 1rem;
+    color: #242424;
     background-color: white;
     margin: 0;
     padding: 0;
@@ -27,17 +28,17 @@ h1, h2 {
 h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
     a {
-        color: black;
+        color: #242424;
         text-decoration: none;
     }
     a:hover {
         text-decoration: underline;
     }
     a:visited {
-        color: black;
+        color: #242424;
     }
     a:active {
-        color: black;
+        color: #242424;
     }
 }
 h1 {
@@ -78,6 +79,7 @@ p {
     margin-bottom: 1.25rem;
 }
 .small {
+    color: dimgray;
     font-size: 0.875rem;
     line-height: 1.5;
     margin-bottom: .5rem;
@@ -173,17 +175,17 @@ header {
         font-weight: normal;
         a {
             font-size: 1rem;
-            color: black;
+            color: #242424;
             text-decoration: none;
         }
         a:hover {
             text-decoration: underline;
         }
         a:visited {
-            color: black;
+            color: #242424;
         }
         a:active {
-            color: black;
+            color: #242424;
         }
         }
     }

@@ -80,21 +80,24 @@ header {
     width: 100%; /* Full width */
     z-index: 1000; /* Ensure it stays above other content */
 }
-.logo-container.logo-lab {
-    height: 56px;
-    min-width: 420px;
-    background: no-repeat url('../images/logo-text-horizontal-white.svg');
+.container-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
 }
-.logo-container.logo-amnh {
-    height: 32px;
-    min-width: 420px;
-    background: right no-repeat url('../images/amnh-logo-white.svg');
-}
-.wrapper {
+.logo-lab {
+    height: 56px;}
+.logo-amnh {
+    height: 32px;}
+.container-menu-content {
     display: flex;
     justify-content: center;
 }
-.container {
+.container-content {
+    width: 100%;
     max-width: 1120px;
 }
 .sidenav {

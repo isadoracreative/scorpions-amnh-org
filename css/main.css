@@ -217,7 +217,7 @@ main {
 }
 footer {
     background-color: #004BB4;
-    margin-top: auto;
+    margin-top: 96px;
     padding: 48px 0;
     color: white;
     p {

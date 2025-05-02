@@ -6,15 +6,13 @@
 	<title>Arachnology at AMNH | Scorpion Systematics Research Group</title>
 	<link rel="stylesheet" href="css/reset.css" type="text/css" />
 	<link rel="stylesheet" href="css/main.css" type="text/css" />
-	<script type="text/javascript" src="rw_common/themes/arrange/javascript.js"></script>
 	<script type="text/javascript">
-		var imagenumber = 51;
-		var randomnumber = Math.random();
-		var rand1 = Math.round((imagenumber - 1) * randomnumber) + 1;
-		var rand2 = Math.round((imagenumber - 1) * randomnumber) + 2;
-		var rand3 = Math.round((imagenumber - 1) * randomnumber) + 3;
-
-		images = new Array;
+		const imagenumber = 51;
+		const randomnumber = Math.random();
+		const rand1 = Math.round((imagenumber - 1) * randomnumber) + 1;
+		const rand2 = Math.round((imagenumber - 1) * randomnumber) + 2;
+		const rand3 = Math.round((imagenumber - 1) * randomnumber) + 3;
+		const images = [];
 		images[1] = "images/00050.jpg";
 		images[2] = "images/00101.jpg";
 		images[3] = "images/00240.jpg";
@@ -65,40 +63,14 @@
 		images[48] = "images/Solipugid1.jpg";
 		images[49] = "images/Opisthacanthus.jpg";
 		images[50] = "images/pectines.jpg";
-		var myimage = images[rand1];
-		var myimage2 = images[rand2];
-		var myimage3 = images[rand3];
-	</script>
-	<script type="text/javascript">
-		var tmp_image_path = "rw_common/themes/arrange/greybox/next.gif";
-		var tmp_path_array = tmp_image_path.split("/");
-		tmp_path_array.pop();
-		var gb_path = tmp_path_array.join("/") + "/";
-		var GB_ROOT_DIR = gb_path;
+		const myimage = images[rand1];
+		const myimage2 = images[rand2];
+		const myimage3 = images[rand3];
 	</script>
 	<script type="text/javascript" src="rw_common/themes/arrange/greybox/AJS.js"></script>
 	<script type="text/javascript" src="rw_common/themes/arrange/greybox/AJS_fx.js"></script>
 	<script type="text/javascript" src="rw_common/themes/arrange/greybox/gb_scripts.js"></script>
 	<link href="rw_common/themes/arrange/greybox/gb_styles.css" rel="stylesheet" type="text/css" />
-	<script>
-		var blankSrc = "rw_common/themes/arrange/blank.gif";
-	</script>
-	<script>
-		(function(i, s, o, g, r, a, m) {
-			i['GoogleAnalyticsObject'] = r;
-			i[r] = i[r] || function() {
-				(i[r].q = i[r].q || []).push(arguments)
-			}, i[r].l = 1 * new Date();
-			a = s.createElement(o),
-				m = s.getElementsByTagName(o)[0];
-			a.async = 1;
-			a.src = g;
-			m.parentNode.insertBefore(a, m)
-		})(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-		ga('create', 'UA-5330062-8', 'amnh.org');
-		ga('require', 'displayfeatures');
-		ga('send', 'pageview');
-	</script>
 </head>
 <body>
 	<header>
@@ -178,7 +150,6 @@
 					<script>
 						// Shuffle the images array (excluding the first empty index)
 						const shuffledImages = images.slice(1).sort(() => Math.random() - 0.5);
-
 						// Write each image to the document in the randomized order
 						shuffledImages.forEach((image, index) => {
 							document.write('<img src="' + image + '" alt="Image ' + (index + 1) + '" class="image-container">');

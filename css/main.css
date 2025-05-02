@@ -82,8 +82,21 @@ figcaption {
     line-height: 1.5;
     margin-bottom: .5rem;
 }
+ul.bulleted-list {
+    margin-bottom: .5rem;
+    list-style-position: outside;
+    li {
+        list-style-type: disc;
+        line-height: 1.75;
+        margin-left: 16px;
+        padding-left: 4px;
+    }
+}
 .no-space-after {
     margin-bottom: 0;
+}
+.more-space-before {
+    padding-top: 1rem;
 }
 header {
     background-color: black;
@@ -196,14 +209,6 @@ main {
     img {
         min-width: 300px;
         padding: 12px 24px 0 0;
-    }
-}
-.bulleted-list {
-    padding-bottom: 4px;
-    li {
-        list-style-type: disc;
-        margin-left: 16px;
-        padding-left: 4px;
     }
 }
 footer {

@@ -43,29 +43,29 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
     font-size: 3rem;
     line-height: 1.2;
-    margin-bottom: .75rem;
+    margin-bottom: .5rem;
 }
 h2 {
     font-size: 2.25rem;
     font-weight: normal;
-    margin-top: .125rem;
+    margin-bottom: .5rem;
 }
 h3 {
     font-size: 1.5rem;
     font-weight: normal;
-    margin-top: .25rem;
+    margin-bottom: .5rem;
 }
 h4 {
     font-size: 1.375rem;
-    margin-top: .75rem;
+    margin-bottom: .5rem;
 }
 h5 {
     font-size: 1.25rem;
-    margin-top: .75rem;
+    margin-bottom: .5rem;
 }
 h6 {
     font-size: 1.125rem;
-    margin-top: .75rem;
+    margin-bottom: .5rem;
 }
 p {
     font-size: 1rem;
@@ -81,13 +81,6 @@ figcaption {
     font-size: 0.875rem;
     line-height: 1.5;
     margin-bottom: .5rem;
-}
-.image-people-group {
-    max-width: 800px;
-    margin-bottom: 32px;
-    img {
-        min-width: 800px;
-    }
 }
 .no-space-after {
     margin-bottom: 0;
@@ -187,6 +180,23 @@ main {
 .image-container {
     height: 200px;
     margin: 0 24px 24px 0;
+}
+.person-bio {
+    display: flex;
+}
+.image-people-group {
+    max-width: 800px;
+    margin-bottom: 32px;
+    img {
+        min-width: 800px;
+    }
+}
+.image-person {
+    max-width: 300px;
+    img {
+        min-width: 300px;
+        padding: 12px 24px 0 0;
+    }
 }
 .bulleted-list {
     padding-bottom: 4px;

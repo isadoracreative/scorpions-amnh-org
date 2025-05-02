@@ -98,6 +98,10 @@ ul.bulleted-list {
 .more-space-before {
     padding-top: 1rem;
 }
+hr {
+    border-top: 1px solid lightgray;
+    margin: 1.25rem 0;
+}
 header {
     background-color: black;
     padding: 24px 48px;

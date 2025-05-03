@@ -83,7 +83,10 @@ a {
 	text-decoration: none;
 	color: inherit;
 }
-/* Retain default italic styling */
+/* Retain default italic and bold styling */
 i, em {
     font-style: italic;
+}
+strong, b {
+	font-weight: bold;
 }

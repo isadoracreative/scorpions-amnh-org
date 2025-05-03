@@ -83,7 +83,7 @@ a {
 	text-decoration: none;
 	color: inherit;
 }
- /* Retain default italic styling */
- i, em {
+/* Retain default italic styling */
+i, em {
     font-style: italic;
 }

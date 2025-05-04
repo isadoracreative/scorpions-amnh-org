@@ -234,6 +234,14 @@ main {
         margin-top: 12px;
     }
 }
+.image-person-small {
+    max-width: 200px;
+    margin-right: 24px;
+    img {
+        min-width: 200px;
+        margin-top: 12px;
+    }
+}
 .placeholder {
     background-color: lightgray;
     width: 100%;

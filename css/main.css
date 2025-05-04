@@ -229,6 +229,14 @@ main {
         min-width: 800px;
     }
 }
+.image-person-large {
+    max-width: 400px;
+    margin-right: 24px;
+    img {
+        min-width: 400px;
+        margin-top: 12px;
+    }
+}
 .image-person {
     max-width: 300px;
     margin-right: 24px;

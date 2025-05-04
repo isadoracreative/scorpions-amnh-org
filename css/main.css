@@ -72,6 +72,7 @@ p {
     font-size: 1rem;
     line-height: 1.5;
     margin-bottom: .5rem;
+    max-width: 80ch;
 }
 .lead {
     font-size: 1.125rem;
@@ -94,9 +95,10 @@ ul.bulleted-list {
     list-style-position: outside;
     li {
         list-style-type: disc;
-        line-height: 1.75;
+        line-height: 1.5;
         margin-left: 16px;
         padding-left: 4px;
+        max-width: 80ch;
     }
 }
 .no-space-after {
@@ -115,11 +117,11 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: fixed; /* Keep the header fixed at the top */
+    position: fixed;
     top: 0;
     left: 0;
-    width: 100%; /* Full width */
-    z-index: 1000; /* Ensure it stays above other content */
+    width: 100%;
+    z-index: 1000;
 }
 .container-header {
     display: flex;
@@ -130,7 +132,7 @@ header {
     margin: 0 auto;
 }
 [id] {
-    scroll-margin-top: 124px; /* Adjust this value to match your header height */
+    scroll-margin-top: 124px;
 }
 .logo-lab {
     height: 56px;}
@@ -141,8 +143,10 @@ header {
     justify-content: center;
 }
 .container-content {
+    display: flex;
+    flex-direction: column;
     width: 100%;
-    max-width: 1120px;
+    max-width: 900px;
 }
 .sidenav {
     font-weight: bold;
@@ -216,7 +220,7 @@ main {
     margin-top: 12px;
 }
 .image-container {
-    height: 200px;
+    height: 160px;
     margin: 0 24px 24px 0;
 }
 .person-bio {

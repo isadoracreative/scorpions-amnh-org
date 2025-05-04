@@ -129,6 +129,9 @@ header {
     max-width: 1400px;
     margin: 0 auto;
 }
+[id] {
+    scroll-margin-top: 124px; /* Adjust this value to match your header height */
+}
 .logo-lab {
     height: 56px;}
 .logo-amnh {

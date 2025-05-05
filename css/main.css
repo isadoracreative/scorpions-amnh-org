@@ -267,6 +267,7 @@ main {
     img {
         min-width: 400px;
         margin-top: 12px;
+        padding-bottom: 12px;
     }
 }
 .image-illustration-small {
@@ -274,6 +275,7 @@ main {
     img {
         min-width: 200px;
         margin-top: 12px;
+        padding-bottom: 12px;
     }
 }
 footer {

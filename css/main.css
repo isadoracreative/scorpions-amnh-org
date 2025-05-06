@@ -160,8 +160,8 @@ header {
         display: none; /* For Chrome, Safari, and Edge */
     }
     ul li {
+        margin-top: 4px;
         a {
-            margin-top: 4px;
             padding-left: 12px;
             font-size: 1.125rem;
             color: #078071;
@@ -182,9 +182,9 @@ header {
             margin-left: -3px;
         }
         ul li {
+            margin-top: 0;
             padding-left: 12px;
             a {
-                margin-top: 0;
                 padding-left: 12px;
                 font-weight: normal;
                 font-size: 1rem;

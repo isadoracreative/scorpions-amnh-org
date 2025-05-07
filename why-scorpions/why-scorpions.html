@@ -130,16 +130,6 @@
 					yet little is known about their biology, new species remain to be discovered, and there are few experts globally.
 					The world scorpion fauna will remain poorly known until more scorpion specialists are trained and prospects for
 					their employment improve.</p>
-				<div class="image-gallery">
-					<script>
-						// Shuffle the images array (excluding the first empty index)
-						const shuffledImages = images.slice(1).sort(() => Math.random() - 0.5);
-						// Write each image to the document in the randomized order
-						shuffledImages.forEach((image, index) => {
-							document.write('<img src="' + image + '" alt="Image ' + (index + 1) + '" class="image-container">');
-						});
-					</script>
-				</div>
 				<h4>Diversity</h4>
 				<p>As listed in the Synopsis of Described Scorpions of the World and the Scorpion Files, approximately 2259 extant
 					species in 209 genera and, depending on the authority, between 13 and 20 families (depending on the authority), as
@@ -147,8 +137,16 @@
 					almost fourfold increase in the number of species listed a century ago in Kraepelin's (1899) Revision der Skorpione.
 					Although comprising only a small component of arthropod diversity, scorpions are of considerable interest to
 					scientist and layman alike.</p>
-				<img src="https://research.amnh.org/users/lorenzo/img/fossil1.jpg" alt="Fossil scorpion" class="image-illustration">
-				<img src="https://research.amnh.org/users/lorenzo/img/fossil2.jpg" alt="Fossil scorpion" class="image-illustration">
+				<div class="image-gallery">
+					<script>
+						// Shuffle the images array (excluding the first empty index)
+						const shuffledImages = images.slice(1).sort(() => Math.random() - 0.5);
+						// Write each image to the document in the randomized order
+						shuffledImages.forEach((image, index) => {
+							document.write('<img src="' + image + '" alt="Image ' + (index + 1) + '" class="image-container-small">');
+						});
+					</script>
+				</div>
 				<h4 class="more-space-before">Antiquity</h4>
 				<p>Scorpions enjoy widespread public appeal (much of it based on fear). Their toxicity, relatively large size and
 					fearsome appearance, notwithstanding the great age of their lineage, contribute to a fascination that has always and
@@ -160,8 +158,14 @@
 					Africa, which average about 20 cm. Scorpions were formerly considered the sister group of other arachnids because
 					they closely resemble extinct marine eurypterids (the sister group of arachnids) but recent data suggest that
 					scorpions are embedded in the arachnid lineage, and merely retain primitive features.</p>
-				<img src="https://research.amnh.org/users/lorenzo/img/venom.gif" alt="Venom drop coming out of the aculeus"
-					class="image-illustration">
+				<div class="image-gallery">
+					<figure>
+						<img src="https://research.amnh.org/users/lorenzo/img/fossil1.jpg" alt="Fossil scorpion" class="image-container-large">
+					</figure>
+					<figure>
+						<img src="https://research.amnh.org/users/lorenzo/img/fossil2.jpg" alt="Fossil scorpion" class="image-container-large">
+					</figure>
+				</div>
 				<h4 class="more-space-before">Notoriety</h4>
 				<p>Scorpions are notorious worldwide. Scorpion venoms contain multiple low molecular weight proteinaceous neurotoxins
 					that block sodium and potassium channels, preventing the transmission of nerve impulses across synapses. In regions
@@ -176,8 +180,14 @@
 					scorpions has proved fatal to healthy children up to 16 years of age and to adults suffering from hypertension and
 					general debility.
 				</p>
-				<img src="https://research.amnh.org/users/lorenzo/img/distribution.jpg"
-					alt="Approximate world distribution of scorpions" class="image-illustration">
+				<div class="image-gallery">
+					<figure>
+						<img src="https://research.amnh.org/users/lorenzo/img/venom.gif" alt="Venom drop coming out of the aculeus" class="image-container">
+					</figure>
+					<figure>
+						<img src="https://research.amnh.org/users/lorenzo/img/redtelson.jpg" alt="Red telson" class="image-container">
+					</figure>
+				</div>
 				<h4 class="more-space-before">Distribution</h4>
 				<p>Scorpions occur on all continents except Antarctica, but are most abundant and diverse in tropical and subtropical
 					regions. The greatest abundance and diversity of scorpions occurs in desert and semi-desert habitats, but they may
@@ -191,10 +201,9 @@
 					densities of scorpions in some areas, their importance in ecological food webs, particularly with respect to helping
 					control insect populations, is considerable. Many are sensitive to environmental degradation and are considered
 					equilibrium species.</p>
-				<img src="https://research.amnh.org/users/lorenzo/img/cannibalism.jpg"
-					alt="Scorpion predating on another scorpion species" class="image-illustration">
-				<img src="https://research.amnh.org/users/lorenzo/img/scorpionmite.jpg" alt="Mites on scorpion"
-					class="image-illustration">
+				<figure class="image-illustration-large">
+					<img src="https://research.amnh.org/users/lorenzo/img/distribution.jpg" alt="Approximate world distribution of scorpions">
+				</figure>
 				<h4 class="more-space-before">Ecology</h4>
 				<p>Scorpions are primarily nocturnal. All fluoresce under long-wave ultraviolet light, facilitating their collection and
 					observation at night. Their simple eyes detect luminosity, but little else. Prey are detected with slit sense organs
@@ -213,10 +222,16 @@
 					<i>Pandinus</i>, in which family groups with overlapping generations cooperate to construct and occupy communal
 					burrows, inhabited by individuals of various ages.
 				</p>
-				<img src="https://research.amnh.org/users/lorenzo/img/scorpionbabies1.jpg" alt="Scorpion with offspring"
-					class="image-illustration">
-				<img src="https://research.amnh.org/users/lorenzo/img/scorpionbabies2.jpg" alt="Scorpion with offspring"
-					class="image-illustration">
+				<div class="image-gallery">
+					<figure class="has-caption">
+						<img src="https://research.amnh.org/users/lorenzo/img/cannibalism.jpg" alt="Scorpion predating on another scorpion species" class="image-container-large">
+						<figcaption>Scorpion predating on another scorpion species</figcaption>
+					</figure>
+					<figure class="has-caption">
+						<img src="https://research.amnh.org/users/lorenzo/img/scorpionmite.jpg" alt="Mites on a scorpion" class="image-container-large">
+						<figcaption>Mites on a scorpion</figcaption>
+					</figure>
+				</div>
 				<h4 class="more-space-before">Life History</h4>
 				<p>Scorpions have a remarkable life history. Reproduction in scorpions is indirect. Intromission occurs via a
 					spermatophore. The male attaches the spermatophore to the substrate while grasping the female by the pedipalps or
@@ -229,9 +244,22 @@
 					year) and litter sizes often small (1-105). Young are fairly large at birth and altricial, clinging to the mother
 					for the first few molts before dispersing. Time to sexual maturity varying from 2-8 years, depending on the species.
 					Average longevity is around 4 years, but larger species may live 25-30 years. Scorpions do not molt as adults.</p>
-				<img src="https://research.amnh.org/users/lorenzo/img/spermatophore.jpg" alt="Scorpion spermatophore"
-					class="image-illustration">
-				<img src="https://research.amnh.org/users/lorenzo/img/capsule.jpg" alt="Scorpion capsule" class="image-illustration">
+				<div class="image-gallery">
+					<figure>
+						<img src="https://research.amnh.org/users/lorenzo/img/scorpionbabies1.jpg" alt="Scorpion with offspring" class="image-container-large">
+					</figure>
+					<figure>
+						<img src="https://research.amnh.org/users/lorenzo/img/scorpionbabies2.jpg" alt="Scorpion with offspring" class="image-container-large">
+					</figure>
+					<figure class="has-caption">
+						<img src="https://research.amnh.org/users/lorenzo/img/spermatophore.jpg" alt="Scorpion spermatophore" class="image-container-large">
+						<figcaption>Scorpion spermatophore</figcaption>
+					</figure>
+					<figure class="has-caption">
+						<img src="https://research.amnh.org/users/lorenzo/img/capsule.jpg" alt="Scorpion capsule" class="image-container-large">
+						<figcaption>Scorpion capsule</figcaption>
+					</figure>
+				</div>
 				<h4 class="more-space-before">Conservation</h4>
 				<p>Urgency for the study of any taxonomic group can be argued on the basis of prevailing ignorance about the world's
 					biota. However, scorpions warrant more attention than they receive. As K-selected, equilibrium species, and
@@ -248,10 +276,10 @@
 					market; the most sought after fetch up to $300 each. Few scorpions receive formal protection and many may disappear
 					before being described. The threats faced by many scorpion species renders the task of inventorying their diversity
 					and distribution a priority if steps towards their conservation are to be implemented.</p>
-				<img src="https://research.amnh.org/users/lorenzo/img/beachleft.jpg" alt="Coastal habitat, CA, USA"
-					class="image-illustration">
-				<img src="https://research.amnh.org/users/lorenzo/img/beachright.jpg" alt="Destructed coastal habitat, CA, USA"
-					class="image-illustration">
+				<figure class="image-illustration has-caption">
+					<img src="https://research.amnh.org/users/lorenzo/img/beachleft.jpg" alt="Coastal habitat, CA, USA">
+					<figcaption>Coastal habitat, CA, USA</figcaption>
+				</figure>
 				<h4 class="more-space-before">Dwindling Expertise</h4>
 				<p>Surprisingly, despite their notoriety, worldwide distribution, medical, ecological and conservation importance,
 					scorpions are poorly studied taxonomically. Many families and genera have never been revised and recent inventories
@@ -261,8 +289,9 @@
 					specialists are trained and the prospects for their employment improve. Our group is addressing this problem by
 					coordinating existing expertise in North America to undertake a long overdue revision of the North American scorpion
 					family Vaejovidae, and training new specialists in the process.</p>
-				<img src="https://research.amnh.org/users/lorenzo/img/dropinpubs.gif" alt="Drop in publications"
-					class="image-illustration">
+				<figure class="image-illustration-full">
+					<img src="https://research.amnh.org/users/lorenzo/img/dropinpubs.gif" alt="Drop in publications">
+				</figure>
 				<h4 class="more-space-before">Model System</h4>
 				<p>Scorpions are easy to find in reasonable numbers and thus conducive to the collection of specimens for systematic
 					studies and observational data for ecological studies. Because they belong to an ancient lineage, they are
@@ -271,7 +300,6 @@
 					about the ecology of extant scorpions allows us to make assumptions about processes and events that may have caused
 					scorpion speciation in the past. Most extant scorpions have limited dispersal abilities hence their patterns of
 					distribution are amenable to biogeographical analysis.</p>
-				<img src="https://research.amnh.org/users/lorenzo/img/redtelson.jpg" alt="Red telson" class="image-illustration">
 				</div>
 			</div>
 		</main>

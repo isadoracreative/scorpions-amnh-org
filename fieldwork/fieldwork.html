@@ -6,6 +6,38 @@
 	<title>Arachnology at AMNH | Scorpion Systematics Research Group</title>
 	<link rel="stylesheet" href="../css/reset.css" type="text/css" />
 	<link rel="stylesheet" href="../css/main.css" type="text/css" />
+	<script type="text/javascript">
+		const images = [];
+		images[1] = "../images/DSCN7139.jpg";
+		images[2] = "../images/DSCN1182.jpg";
+		images[3] = "../images/IMG_2488.jpg";
+		images[4] = "../images/IMG_0237.jpg";
+		images[5] = "../images/Malawi443.jpg";
+		images[6] = "../images/IMG_2261.jpg";
+		images[7] = "../images/IMG_0823.jpg";
+		images[8] = "../images/DSCF5506.jpg";
+		images[9] = "../images/Mozambique041.jpg";
+		images[10] = "../images/DSCN0023.jpg";
+		images[11] = "../images/DSCN0494.jpg";
+		images[12] = "../images/D.mexicanus.ElMoral.jpg";
+		images[13] = "../images/IMG_0684.jpg";
+		images[14] = "../images/DSCN6382.jpg";
+		images[15] = "../images/IMG_2478.jpg";
+		images[16] = "../images/Edmund%20blacklightingZimapan.jpg";
+		images[17] = "../images/DSCN0089.jpg";
+		images[18] = "../images/Jose.and.Camillo.jpg";
+		images[19] = "../images/DSCN2068.jpg";
+		images[20] = "../images/DSCN0020.jpg";
+		images[21] = "../images/LitterWPark.jpg";
+		images[22] = "../images/DSCN0188.jpg";
+		images[23] = "../images/DSCN1207.jpg";
+		images[24] = "../images/IMG_2559.jpg";
+		images[25] = "../images/DSCN0255.jpg";
+		images[26] = "../images/IMG_0487.jpg";
+		images[27] = "../images/DSCN0039.jpg";
+		images[28] = "../images/DSCN0092.jpg";
+		images[29] = "../images/Jeremy-Valerio_Senegal.jpg";
+	</script>
 </head>
 <body>
 	<header>
@@ -61,38 +93,13 @@
 					researchers and students.</p>
 				<h4>Locations</h4>
 				<p>A map showing where fieldwork had been conducted and a detailed list of locations is available upon request.</p>
-				
-				
-				<img src="../images/DSCN7139.JPG" />
-				<img src="../images/DSCN1182.JPG" />
-				<img src="../images/IMG_2488.JPG" />
-				<img src="../images/IMG_0237.jpg" />
-				<img src="../images/Malawi443.JPG" />
-				<img src="../images/IMG_2261.JPG" />
-				<img src="../images/IMG_0823.JPG" />
-				<img src="../images/DSCF5506.JPG" />
-				<img src="../images/Mozambique041.JPG" />
-				<img src="../images/DSCN0023.JPG" />
-				<img src="../images/DSCN0494.JPG" />
-				<img src="../images/D.mexicanus.ElMoral.JPG" />
-				<img src="../images/IMG_0684.JPG" />
-				<img src="../images/DSCN6382.JPG" />
-				<img src="../images/IMG_2478.JPG" />
-				<img src="../images/Edmund%20blacklightingZimapan.JPG" />
-				<img src="../images/DSCN0089.jpg" />
-				<img src="../images/Jose.and.Camillo.JPG" />
-				<img src="../images/DSCN2068.JPG" />
-				<img src="../images/DSCN0020.JPG" />
-				<img src="../images/LitterWPark.JPG" />
-				<img src="../images/DSCN0188.JPG" />
-				<img src="../images/DSCN1207.JPG" />
-				<img src="../images/IMG_2559.JPG" />
-				<img src="../images/DSCN0255.jpg" />
-				<img src="../images/IMG_0487.JPG" />
-				<img src="../images/DSCN0039.JPG" />
-				<img src="../images/DSCN0092.jpg" />
-				<img src="../images/Jeremy-Valerio_Senegal.JPG" />
-
+				<div class="image-gallery">
+					<script>
+						images.forEach((image, index) => {
+							document.write('<img src="' + image + '" alt="Image ' + (index + 1) + '" class="image-container-small">');
+						});
+					</script>
+				</div>
 			</div>
 		</main>
 	</div>

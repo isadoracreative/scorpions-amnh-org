@@ -231,6 +231,10 @@ main {
     height: 280px;
     margin: 0 24px 24px 0;
 }
+.image-container-extra-large {
+    height: 400px;
+    margin: 0 24px 24px 0;
+}
 .image-illustration-full {
     max-width: 100%;
     img {
